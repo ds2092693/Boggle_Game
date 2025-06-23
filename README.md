@@ -10,6 +10,8 @@ This is a web-based interactive Boggle Game Solver built using **HTML**, **CSS**
 - 🕒 **120-seconds countdown timer** for each game
 - 📋 **Word submission** and tracking of found words
 - 🔄 **Random board generator**
+- 📖 **Instant word meaning lookup using online dictionary API**
+- 🏆 **Leaderboard to track top players**
 
 ---
 
