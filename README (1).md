@@ -37,4 +37,4 @@ This project is open source and free to use under the [MIT License](LICENSE).
 
 ## ✨ Authors
 
-- Developed by [Aditya , Harshit , Akshat and Divyanshu]
+- Developed by Divyanshu Sharma
