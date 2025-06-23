@@ -1,0 +1,40 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Boggle Game Solver</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <div class="game-wrapper">
+    <div class="game-container">
+      <div class="small-label">DAA-IV-T137</div>
+      <h1>BOGGLE GAME</h1>
+      <div class="info">
+        <span>Score: <span id="score">0</span></span>
+        <span>Time: <span id="timer">120</span>s</span>
+      </div>
+      <div class="grid" id="grid"></div>
+      <div class="controls">
+        <input type="text" id="currentWord" placeholder="Selected word" readonly />
+        <button id="submitBtn">Submit</button>
+      </div>
+      <div class="hint-restart">
+        <button id="hintBtn">Hint (1 left)</button>
+        <button id="restartBtn">Restart</button>
+      </div>
+      <div class="word-list">
+        <h3>Found Words:</h3>
+        <ul id="wordList"></ul>
+      </div>
+    </div>
+ 
+    <div class="leaderboard-container">
+      <h3>🏆 Leaderboard - Top 5</h3>
+      <ol id="leaderboardList"></ol>
+    </div>
+      </div>      
+      <script src="script.js"></script>
+    </body>
+  </html>
